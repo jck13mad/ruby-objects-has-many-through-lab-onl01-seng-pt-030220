@@ -11,6 +11,7 @@ class Doctor
   def initialize(name)
     @name = name
     @@all << self
+    @aapointments = []
   end
   
   def new_appointment(date, patient)
